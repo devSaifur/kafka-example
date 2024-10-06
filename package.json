@@ -1,0 +1,20 @@
+{
+  "name": "kafka-example",
+  "version": "1.0.0",
+  "description": "A simple example of using kafkajs",
+  "scripts": {
+    "dev:admin": "tsx src/admin.ts",
+    "dev:consumer": "tsx src/consumer.ts",
+    "dev:producer": "tsx src/producer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.1"
+  }
+}
